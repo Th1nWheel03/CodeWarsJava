@@ -1,6 +1,7 @@
+package Scanning;
 import java.util.Scanner;
 
-public class Scanning {
+public class Scan {
 
     public String scanString() {
         

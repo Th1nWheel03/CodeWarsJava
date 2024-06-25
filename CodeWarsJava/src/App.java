@@ -1,8 +1,10 @@
+import Scanning.Scan;
+
 public class App {
 
     public void stringSplit() {
 
-        Scanning sc = new Scanning();
+        Scan sc = new Scan();
 
         String sentence = sc.scanString();
 
