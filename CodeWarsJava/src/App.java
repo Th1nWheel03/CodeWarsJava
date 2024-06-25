@@ -1,5 +1,18 @@
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+    public void stringSplit() {
+
+        Scanning sc = new Scanning();
+
+        String sentence = sc.scanString();
+
+        System.out.println(sentence);
+    }
+    
+    public static void main(String[] args) {
+
+        App app = new App();
+
+        app.stringSplit();
     }
 }
