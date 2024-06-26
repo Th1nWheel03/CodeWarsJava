@@ -12,4 +12,12 @@ public class Scan {
 
         return sentence;
     }
+
+    public int scanInt() {
+
+        System.out.println("Enter your number:");
+        int number = sc.nextInt();
+
+        return number;
+    }
 }

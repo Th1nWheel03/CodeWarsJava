@@ -62,7 +62,20 @@ public class App {
         }
 
         System.out.println(uniqueNumber + " => unique number of: " + sb.toString().trim());
+    }
 
+    public void repeatString() {
+
+        System.out.println("\nKatas => repeat string\n");
+
+        RepeatString rs = new RepeatString();
+
+        String string = sc.scanString();
+        int repeat = sc.scanInt();
+
+        String repeatString = rs.repeatString(repeat, string);
+
+        System.out.println(repeatString + " => repeat " + repeat + " time: " + string);
     }
     
     public static void main(String[] args) {
@@ -72,7 +85,7 @@ public class App {
         // app.stringSplit();
         // app.camelCase();
         // app.validPhoneNumber();
-        app.findUnique();
-
+        // app.findUnique();
+        app.repeatString();
     }
 }
