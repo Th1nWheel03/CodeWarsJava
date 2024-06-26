@@ -77,6 +77,19 @@ public class App {
 
         System.out.println(repeatString + " => repeat " + repeat + " time: " + string);
     }
+
+    public void noSpace() {
+
+        System.out.println("\nKatas => remove string space\n");
+
+        RemoveStringSpace rss = new RemoveStringSpace();
+
+        String string = sc.scanString();
+
+        String noSpace = rss.noSpace(string);
+
+        System.out.println(noSpace + " => no space of: " + string);
+    }
     
     public static void main(String[] args) {
 
@@ -86,6 +99,7 @@ public class App {
         // app.camelCase();
         // app.validPhoneNumber();
         // app.findUnique();
-        app.repeatString();
+        // app.repeatString();
+        app.noSpace();
     }
 }
