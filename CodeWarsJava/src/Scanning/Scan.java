@@ -3,14 +3,13 @@ import java.util.Scanner;
 
 public class Scan {
 
+    Scanner sc = new Scanner(System.in);
+
     public String scanString() {
-        
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your sentence:");
         String sentence = sc.nextLine();
 
-        sc.close();
         return sentence;
     }
 }

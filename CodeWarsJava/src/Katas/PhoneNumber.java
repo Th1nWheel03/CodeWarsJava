@@ -9,11 +9,7 @@ public class PhoneNumber {
 
         Matcher matcher = pattern.matcher(phoneNumber);
 
-        if (matcher.matches()) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return matcher.matches() ? true : false;
+
     }
 }
